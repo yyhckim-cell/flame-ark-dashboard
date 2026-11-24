@@ -1,102 +1,6 @@
 {
-  "meta": {
-    "updatedAt": "2026-11-24 13:30",
-    "exampleSections": [
-      "serverSpec",
-      "networkStatus",
-      "datasetCards",
-      "docStatus",
-      "modality",
-      "collections",
-      "sciPapers"
-    ],
-    "sectionInfo": [
-      {
-        "label": "연합학습 데이터셋 구축 현황",
-        "tab": "kpi",
-        "owner": "PMO",
-        "cycle": "월 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "데이터 품질(1차, 2차 검수)",
-        "tab": "kpi",
-        "owner": "PMO",
-        "cycle": "월 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "플랫폼 안정성, 사용성",
-        "tab": "kpi",
-        "owner": "PMO",
-        "cycle": "분기 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "파운데이션 모델 상대 성능",
-        "tab": "kpi",
-        "owner": "제로원",
-        "cycle": "분기 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "AI 의료서비스 모델 개발, 검증",
-        "tab": "kpi",
-        "owner": "제로원",
-        "cycle": "분기 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "SCI 논문 실적",
-        "tab": "kpi",
-        "owner": "PMO",
-        "cycle": "수시(게재 확정 시)",
-        "updatedAt": ""
-      },
-      {
-        "label": "네트워크 준비 상태, 서버 사양",
-        "tab": "system",
-        "owner": "PMO",
-        "cycle": "월 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "연합학습 현재 라운드, 기관별 라운드",
-        "tab": "service",
-        "owner": "제로원",
-        "cycle": "라운드 종료 시",
-        "updatedAt": ""
-      },
-      {
-        "label": "이전 라운드 기록",
-        "tab": "service",
-        "owner": "제로원",
-        "cycle": "라운드 종료 시",
-        "updatedAt": ""
-      },
-      {
-        "label": "주관별 서비스명",
-        "tab": "service",
-        "owner": "총괄",
-        "cycle": "변경 시",
-        "updatedAt": ""
-      },
-      {
-        "label": "기관별 데이터셋 카드",
-        "tab": "service",
-        "owner": "PMO",
-        "cycle": "월 1회",
-        "updatedAt": ""
-      },
-      {
-        "label": "문서 현황, 모달리티, 수집 형태",
-        "tab": "service",
-        "owner": "PMO",
-        "cycle": "월 1회",
-        "updatedAt": ""
-      }
-    ]
-  },
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-11-24",
   "datasetConstruction": {
     "builtCount": 21143,
     "targetCount": 500000,
@@ -120,22 +24,6 @@
   "sciPaper": {
     "totalCount": 5
   },
-  "sciPapers": [
-    {
-      "name": "2025년 논문.pdf",
-      "finalDate": "2025.12.",
-      "registrant": "",
-      "registeredDate": "2025.12.31.",
-      "stage": "진행중"
-    },
-    {
-      "name": "2026년 논문.pdf",
-      "finalDate": "2026.12.",
-      "registrant": "",
-      "registeredDate": "2026.12.31.",
-      "stage": "완료"
-    }
-  ],
   "institutions": [
     {
       "id": "samsung-seoul",
@@ -237,32 +125,6 @@
       "networkStatus": "notReady"
     }
   ],
-  "serverSpec": {
-    "cpuModel": "Intel Xeon Platinum 8568Y+",
-    "cpuCores": 48,
-    "cpuCount": 2,
-    "totalCores": 96,
-    "gpuModel": "NVIDIA HGX H200 SXM",
-    "gpuMemory": "141GB",
-    "gpuCount": 8,
-    "gpuTotalMemory": "1128GB",
-    "ramCapacity": "64",
-    "ramType": "RDIMM",
-    "ramModules": 32,
-    "ramTotal": "2TB",
-    "osStorageCapacity": "3.84TB",
-    "osStorageType": "Data Center NVMe Read Intensive AG Drive U2 Gen4 with Carrier",
-    "osStorageCount": 2,
-    "osStorageRaid": "RAID 1",
-    "dataStorageCapacity": "15.36TB",
-    "dataStorageType": "Enterprise NVMe Read Intensive AG Drive U.2 Gen4 with carrie",
-    "dataStorageCount": 2,
-    "dataStorageRaid": "RAID 2",
-    "osType": "Linux",
-    "osVersion": "-",
-    "owner": ""
-  },
-  "serverSpecOverrides": {},
   "orgAssignments": [
     {
       "orgOrder": "1주관",
@@ -390,6 +252,45 @@
     "evalLoss": 0.634,
     "totalData": 21373
   },
+  "updatedAt": {
+    "datasetConstruction": "2026-11-24",
+    "dataQuality": "2026-11-24",
+    "platform": "2026-11-24",
+    "foundationModel": "2026-11-24",
+    "aiMedicalService": "2026-11-24",
+    "sciPaper": "2026-11-24",
+    "institutions": "2026-11-24",
+    "orgAssignments": "2026-11-24",
+    "federatedInstitutionRounds": "2026-11-24",
+    "federatedRoundHistory": "2026-11-24",
+    "federatedCurrentRound": "2026-11-24"
+  },
+  "serverSpec": {
+    "cpuModel": "Intel Xeon Platinum 8568Y+",
+    "cpuCores": 48,
+    "cpuCount": 2,
+    "totalCores": 96,
+    "gpuModel": "NVIDIA HGX H200 SXM",
+    "gpuMemory": "141GB",
+    "gpuCount": 8,
+    "gpuTotalMemory": "1128GB",
+    "ramCapacity": "64",
+    "ramType": "RDIMM",
+    "ramModules": 32,
+    "ramTotal": "2TB",
+    "osStorageCapacity": "3.84TB",
+    "osStorageType": "Data Center NVMe Read Intensive AG Drive U2 Gen4 with Carrier",
+    "osStorageCount": 2,
+    "osStorageRaid": "RAID 1",
+    "dataStorageCapacity": "15.36TB",
+    "dataStorageType": "Enterprise NVMe Read Intensive AG Drive U.2 Gen4 with carrie",
+    "dataStorageCount": 2,
+    "dataStorageRaid": "RAID 2",
+    "osType": "Linux",
+    "osVersion": "-",
+    "owner": ""
+  },
+  "serverSpecOverrides": {},
   "datasetCards": [
     {
       "id": "insurance-review",
@@ -623,5 +524,43 @@
       "target": 1724100,
       "ratePercent": 83.2
     }
+  },
+  "sciPapers": [
+    {
+      "name": "2025년 논문.pdf",
+      "finalDate": "2025.12.",
+      "registrant": "",
+      "registeredDate": "2025.12.31.",
+      "stage": "진행중"
+    },
+    {
+      "name": "2026년 논문.pdf",
+      "finalDate": "2026.12.",
+      "registrant": "",
+      "registeredDate": "2026.12.31.",
+      "stage": "완료"
+    }
+  ],
+  "meta": {
+    "sampleSections": [
+      "datasetConstruction",
+      "dataQuality",
+      "platform",
+      "foundationModel",
+      "aiMedicalService",
+      "sciPaper",
+      "institutions",
+      "orgAssignments",
+      "federatedInstitutionRounds",
+      "federatedRoundHistory",
+      "federatedCurrentRound",
+      "serverSpec",
+      "networkStatus",
+      "datasetCards",
+      "docStatus",
+      "modality",
+      "collections",
+      "sciPapers"
+    ]
   }
 }
