@@ -39,17 +39,17 @@
         "updatedBy": ""
       },
       "sciPaper": {
-        "cycle": "연 1회",
+        "cycle": "연 1회 또는 발생 시",
         "updatedAt": "2026-11-24",
         "updatedBy": ""
       },
       "institutions": {
-        "cycle": "연 1회",
+        "cycle": "연 1회 또는 발생 시",
         "updatedAt": "2026-11-24",
         "updatedBy": ""
       },
       "orgAssignments": {
-        "cycle": "연 1회",
+        "cycle": "연 1회 또는 발생 시",
         "updatedAt": "2026-11-24",
         "updatedBy": ""
       },
