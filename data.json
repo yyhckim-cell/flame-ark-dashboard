@@ -1,6 +1,110 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-11-24",
+  "meta": {
+    "updatedAt": "2026-11-24",
+    "exampleSections": [
+      "serverSpec",
+      "networkStatus",
+      "datasetCards",
+      "docStatus",
+      "modality",
+      "collections",
+      "sciPapers"
+    ],
+    "sections": {
+      "datasetConstruction": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "dataQuality": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "platform": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "foundationModel": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "aiMedicalService": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "sciPaper": {
+        "cycle": "연 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "institutions": {
+        "cycle": "연 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "orgAssignments": {
+        "cycle": "연 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "federatedInstitutionRounds": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "federatedRoundHistory": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "federatedCurrentRound": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "sciPapers": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "serverSpec": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "serverSpecOverrides": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "datasetCards": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "docStatus": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "modality": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      },
+      "collections": {
+        "cycle": "월 1회",
+        "updatedAt": "2026-11-24",
+        "updatedBy": ""
+      }
+    }
+  },
   "datasetConstruction": {
     "builtCount": 21143,
     "targetCount": 500000,
@@ -252,19 +356,22 @@
     "evalLoss": 0.634,
     "totalData": 21373
   },
-  "updatedAt": {
-    "datasetConstruction": "2026-11-24",
-    "dataQuality": "2026-11-24",
-    "platform": "2026-11-24",
-    "foundationModel": "2026-11-24",
-    "aiMedicalService": "2026-11-24",
-    "sciPaper": "2026-11-24",
-    "institutions": "2026-11-24",
-    "orgAssignments": "2026-11-24",
-    "federatedInstitutionRounds": "2026-11-24",
-    "federatedRoundHistory": "2026-11-24",
-    "federatedCurrentRound": "2026-11-24"
-  },
+  "sciPapers": [
+    {
+      "name": "2025년 논문.pdf",
+      "finalDate": "2025.12.",
+      "registrant": "",
+      "registeredDate": "2025.12.31.",
+      "stage": "진행중"
+    },
+    {
+      "name": "2026년 논문.pdf",
+      "finalDate": "2026.12.",
+      "registrant": "",
+      "registeredDate": "2026.12.31.",
+      "stage": "완료"
+    }
+  ],
   "serverSpec": {
     "cpuModel": "Intel Xeon Platinum 8568Y+",
     "cpuCores": 48,
@@ -525,42 +632,17 @@
       "ratePercent": 83.2
     }
   },
-  "sciPapers": [
-    {
-      "name": "2025년 논문.pdf",
-      "finalDate": "2025.12.",
-      "registrant": "",
-      "registeredDate": "2025.12.31.",
-      "stage": "진행중"
-    },
-    {
-      "name": "2026년 논문.pdf",
-      "finalDate": "2026.12.",
-      "registrant": "",
-      "registeredDate": "2026.12.31.",
-      "stage": "완료"
-    }
-  ],
-  "meta": {
-    "sampleSections": [
-      "datasetConstruction",
-      "dataQuality",
-      "platform",
-      "foundationModel",
-      "aiMedicalService",
-      "sciPaper",
-      "institutions",
-      "orgAssignments",
-      "federatedInstitutionRounds",
-      "federatedRoundHistory",
-      "federatedCurrentRound",
-      "serverSpec",
-      "networkStatus",
-      "datasetCards",
-      "docStatus",
-      "modality",
-      "collections",
-      "sciPapers"
-    ]
+  "updatedAt": {
+    "datasetConstruction": "2026-11-24",
+    "dataQuality": "2026-11-24",
+    "platform": "2026-11-24",
+    "foundationModel": "2026-11-24",
+    "aiMedicalService": "2026-11-24",
+    "sciPaper": "2026-11-24",
+    "institutions": "2026-11-24",
+    "orgAssignments": "2026-11-24",
+    "federatedInstitutionRounds": "2026-11-24",
+    "federatedRoundHistory": "2026-11-24",
+    "federatedCurrentRound": "2026-11-24"
   }
 }
