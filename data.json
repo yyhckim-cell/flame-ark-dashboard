@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-24 13:30",
+    "exampleSections": [
+      "serverSpec",
+      "networkStatus",
+      "datasetCards",
+      "docStatus",
+      "modality",
+      "collections",
+      "sciPapers"
+    ],
+    "sectionInfo": [
+      {
+        "label": "연합학습 데이터셋 구축 현황",
+        "tab": "kpi",
+        "owner": "PMO",
+        "cycle": "월 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "데이터 품질(1차, 2차 검수)",
+        "tab": "kpi",
+        "owner": "PMO",
+        "cycle": "월 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "플랫폼 안정성, 사용성",
+        "tab": "kpi",
+        "owner": "PMO",
+        "cycle": "분기 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "파운데이션 모델 상대 성능",
+        "tab": "kpi",
+        "owner": "제로원",
+        "cycle": "분기 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "AI 의료서비스 모델 개발, 검증",
+        "tab": "kpi",
+        "owner": "제로원",
+        "cycle": "분기 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "SCI 논문 실적",
+        "tab": "kpi",
+        "owner": "PMO",
+        "cycle": "수시(게재 확정 시)",
+        "updatedAt": ""
+      },
+      {
+        "label": "네트워크 준비 상태, 서버 사양",
+        "tab": "system",
+        "owner": "PMO",
+        "cycle": "월 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "연합학습 현재 라운드, 기관별 라운드",
+        "tab": "service",
+        "owner": "제로원",
+        "cycle": "라운드 종료 시",
+        "updatedAt": ""
+      },
+      {
+        "label": "이전 라운드 기록",
+        "tab": "service",
+        "owner": "제로원",
+        "cycle": "라운드 종료 시",
+        "updatedAt": ""
+      },
+      {
+        "label": "주관별 서비스명",
+        "tab": "service",
+        "owner": "총괄",
+        "cycle": "변경 시",
+        "updatedAt": ""
+      },
+      {
+        "label": "기관별 데이터셋 카드",
+        "tab": "service",
+        "owner": "PMO",
+        "cycle": "월 1회",
+        "updatedAt": ""
+      },
+      {
+        "label": "문서 현황, 모달리티, 수집 형태",
+        "tab": "service",
+        "owner": "PMO",
+        "cycle": "월 1회",
+        "updatedAt": ""
+      }
+    ]
+  },
+  "datasetConstruction": {
+    "builtCount": 21143,
+    "targetCount": 500000,
+    "ratePercent": 4.23
+  },
+  "dataQuality": {
+    "manual1Percent": 32.23,
+    "manual2Percent": 4.23
+  },
+  "platform": {
+    "systemStabilityPercent": 35.5,
+    "systemUsabilityScore": 20
+  },
+  "foundationModel": {
+    "relativePerformancePercent": 10.9
+  },
+  "aiMedicalService": {
+    "modelDevelopmentPercent": 78,
+    "modelVerificationPercent": 0
+  },
+  "sciPaper": {
+    "totalCount": 5
+  },
+  "sciPapers": [
+    {
+      "name": "2025년 논문.pdf",
+      "finalDate": "2025.12.",
+      "registrant": "",
+      "registeredDate": "2025.12.31.",
+      "stage": "진행중"
+    },
+    {
+      "name": "2026년 논문.pdf",
+      "finalDate": "2026.12.",
+      "registrant": "",
+      "registeredDate": "2026.12.31.",
+      "stage": "완료"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "samsung-seoul",
+      "name": "삼성서울병원",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "notReady"
+    },
+    {
+      "id": "severance",
+      "name": "세브란스병원",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "pending"
+    },
+    {
+      "id": "gachon",
+      "name": "가천대병원",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "verifying"
+    },
+    {
+      "id": "wooridul",
+      "name": "우리아이들",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "failed"
+    },
+    {
+      "id": "snu",
+      "name": "서울대학교",
+      "side": "left",
+      "gpuCount": 0,
+      "dmzCount": 0,
+      "etcCount": 1,
+      "networkStatus": "ready"
+    },
+    {
+      "id": "jeonbuk",
+      "name": "전북대병원",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "notReady"
+    },
+    {
+      "id": "jeju",
+      "name": "제주대병원",
+      "side": "left",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "pending"
+    },
+    {
+      "id": "gangwon",
+      "name": "강원대병원",
+      "side": "right",
+      "gpuCount": 2,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "verifying"
+    },
+    {
+      "id": "bundang-cha",
+      "name": "분당차병원",
+      "side": "right",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "failed"
+    },
+    {
+      "id": "gumi-cha",
+      "name": "구미차병원",
+      "side": "right",
+      "gpuCount": 1,
+      "dmzCount": 1,
+      "etcCount": 0,
+      "networkStatus": "ready"
+    },
+    {
+      "id": "donga",
+      "name": "동아대병원",
+      "side": "right",
+      "gpuCount": 2,
+      "dmzCount": 1,
+      "etcCount": 2,
+      "networkStatus": "notReady"
+    }
+  ],
+  "serverSpec": {
+    "cpuModel": "Intel Xeon Platinum 8568Y+",
+    "cpuCores": 48,
+    "cpuCount": 2,
+    "totalCores": 96,
+    "gpuModel": "NVIDIA HGX H200 SXM",
+    "gpuMemory": "141GB",
+    "gpuCount": 8,
+    "gpuTotalMemory": "1128GB",
+    "ramCapacity": "64",
+    "ramType": "RDIMM",
+    "ramModules": 32,
+    "ramTotal": "2TB",
+    "osStorageCapacity": "3.84TB",
+    "osStorageType": "Data Center NVMe Read Intensive AG Drive U2 Gen4 with Carrier",
+    "osStorageCount": 2,
+    "osStorageRaid": "RAID 1",
+    "dataStorageCapacity": "15.36TB",
+    "dataStorageType": "Enterprise NVMe Read Intensive AG Drive U.2 Gen4 with carrie",
+    "dataStorageCount": 2,
+    "dataStorageRaid": "RAID 2",
+    "osType": "Linux",
+    "osVersion": "-",
+    "owner": ""
+  },
+  "serverSpecOverrides": {},
+  "orgAssignments": [
+    {
+      "orgOrder": "1주관",
+      "serviceName": "연구 및 행정 서류 생성 모델"
+    },
+    {
+      "orgOrder": "2주관",
+      "serviceName": ""
+    },
+    {
+      "orgOrder": "3주관",
+      "serviceName": ""
+    },
+    {
+      "orgOrder": "4주관",
+      "serviceName": ""
+    },
+    {
+      "orgOrder": "5주관",
+      "serviceName": ""
+    }
+  ],
+  "federatedInstitutionRounds": [
+    {
+      "id": "samsung-seoul",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_연구행정",
+      "side": "left",
+      "round": 5,
+      "score": 97,
+      "trainLoss": 0.873,
+      "evalLoss": 0.364,
+      "totalData": 8000
+    },
+    {
+      "id": "jeonbuk",
+      "orgOrder": "1주관",
+      "name": "전북대병원",
+      "side": "left",
+      "round": 4,
+      "score": 80,
+      "trainLoss": 0.842,
+      "evalLoss": 0.912,
+      "totalData": 23080
+    },
+    {
+      "id": "bundang-cha",
+      "orgOrder": "2주관",
+      "name": "분당차병원",
+      "side": "left",
+      "round": 5,
+      "score": 92,
+      "trainLoss": 0.719,
+      "evalLoss": 0.849,
+      "totalData": 13048
+    },
+    {
+      "id": "gangwon",
+      "orgOrder": "3주관",
+      "name": "강원대병원",
+      "side": "right",
+      "round": 3,
+      "score": 77,
+      "trainLoss": 0.394,
+      "evalLoss": 0.846,
+      "totalData": 9023
+    },
+    {
+      "id": "wooridul",
+      "orgOrder": "5주관",
+      "name": "우리아이들병원",
+      "side": "right",
+      "round": 3,
+      "score": 85,
+      "trainLoss": 0.274,
+      "evalLoss": 0.846,
+      "totalData": 48302
+    }
+  ],
+  "federatedRoundHistory": [
+    {
+      "round": 4,
+      "score": 100,
+      "participants": [
+        "삼성서울병원",
+        "전북대병원"
+      ],
+      "trainLoss": 0.654,
+      "evalLoss": 0.604,
+      "totalData": 1129
+    },
+    {
+      "round": 3,
+      "score": 86,
+      "participants": [
+        "삼성서울병원",
+        "전북대병원"
+      ],
+      "trainLoss": 0.654,
+      "evalLoss": 0.604,
+      "totalData": 1129
+    },
+    {
+      "round": 2,
+      "score": 86,
+      "participants": [
+        "삼성서울병원",
+        "전북대병원"
+      ],
+      "trainLoss": 0.842,
+      "evalLoss": 0.912,
+      "totalData": 1129
+    }
+  ],
+  "federatedCurrentRound": {
+    "round": 5,
+    "participants": [
+      "삼성서울병원",
+      "전북대병원",
+      "세브란스병원",
+      "동아대병원"
+    ],
+    "score": 80,
+    "trainLoss": 0.812,
+    "evalLoss": 0.634,
+    "totalData": 21373
+  },
+  "datasetCards": [
+    {
+      "id": "insurance-review",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_보험심사",
+      "subtitle": "AI기반 지능형 보험심사(청구서) 자동화 구축",
+      "side": "left",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "exam-report",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_협진서",
+      "subtitle": "협진서",
+      "side": "left",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "research-admin",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_연구행정",
+      "subtitle": "연구 및 행정 서류 생성 보조 서비스 개발",
+      "side": "left",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "ai-call",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_AI call",
+      "subtitle": "환자 기록 기반 맞춤형수식 AI Call 시스템 개발",
+      "side": "left",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "surgery-video",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_수술영상",
+      "subtitle": "수술 영상 생성 프로토타입",
+      "side": "right",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "drug-recognition",
+      "orgOrder": "1주관",
+      "name": "삼성서울병원_약제인식",
+      "subtitle": "멀티모달 약제 인식 서비스 모델",
+      "side": "right",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "jeonbuk-1",
+      "orgOrder": "1주관",
+      "name": "전북대병원",
+      "subtitle": "환자 맞춤형 생성형 AI 기반 수술 동의서 지원",
+      "side": "right",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    },
+    {
+      "id": "jeonbuk-2",
+      "orgOrder": "1주관",
+      "name": "전북대병원",
+      "subtitle": "환자 및 보호자 지원인력화(VoC) 서비스",
+      "side": "right",
+      "totalCollected": 25000,
+      "irbSecured": 15000,
+      "pseudonymized": 7200,
+      "deliveredToTraining": 3094
+    }
+  ],
+  "docStatus": {
+    "foundation": [
+      {
+        "label": "IRB 동의서",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 278,
+        "total": 3000
+      },
+      {
+        "label": "IRB 회의록",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 18,
+        "total": 200
+      }
+    ],
+    "federated": [
+      {
+        "label": "IRB 동의서",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 278,
+        "total": 3000
+      },
+      {
+        "label": "IRB 회의록",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 18,
+        "total": 200
+      },
+      {
+        "label": "IRB 계획서",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 1173,
+        "total": 5200
+      },
+      {
+        "label": "IRB 통지서",
+        "format": "EMR(FHIR)",
+        "pseudonymized": "비대상",
+        "irbStatus": "심의완료",
+        "count": 1173,
+        "total": 5200
+      }
+    ]
+  },
+  "modality": {
+    "stats": [
+      {
+        "label": "Table",
+        "percent": 80
+      },
+      {
+        "label": "Text",
+        "percent": 78
+      },
+      {
+        "label": "Image",
+        "percent": 70
+      },
+      {
+        "label": "Video",
+        "percent": 58
+      }
+    ],
+    "byOrg": [
+      {
+        "label": "1주관",
+        "percent": 62
+      },
+      {
+        "label": "2주관",
+        "percent": 48
+      },
+      {
+        "label": "3주관",
+        "percent": 54
+      },
+      {
+        "label": "4주관",
+        "percent": 36
+      },
+      {
+        "label": "5주관",
+        "percent": 30
+      }
+    ]
+  },
+  "collections": {
+    "foundation": {
+      "current": 439120,
+      "target": 1500000,
+      "ratePercent": 78.3,
+      "sparkline": [
+        20,
+        24,
+        22,
+        28,
+        32,
+        30,
+        36,
+        40,
+        38,
+        44,
+        50,
+        46
+      ]
+    },
+    "federated": {
+      "current": 21373,
+      "target": 1000000,
+      "ratePercent": 5.6,
+      "sparkline": [
+        10,
+        14,
+        12,
+        18,
+        22,
+        30,
+        26,
+        34,
+        40,
+        38,
+        44,
+        42
+      ]
+    },
+    "prospective": {
+      "count": 2564
+    },
+    "retrospective": {
+      "current": 82010,
+      "target": 1724100,
+      "ratePercent": 83.2
+    }
+  }
+}
