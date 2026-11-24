@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-24 13:30",
+    "updatedAt": "2026-11-24 14:05",
     "exampleSections": [
       "serverSpec",
       "networkStatus",
@@ -16,7 +16,7 @@
         "tab": "kpi",
         "owner": "PMO",
         "cycle": "월 1회",
-        "updatedAt": ""
+        "updatedAt": "2026-11-24"
       },
       {
         "label": "데이터 품질(1차, 2차 검수)",
@@ -98,9 +98,9 @@
     ]
   },
   "datasetConstruction": {
-    "builtCount": 21143,
+    "builtCount": 23456,
     "targetCount": 500000,
-    "ratePercent": 4.23
+    "ratePercent": 4.69
   },
   "dataQuality": {
     "manual1Percent": 32.23,
